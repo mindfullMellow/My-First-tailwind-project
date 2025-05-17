@@ -11,7 +11,6 @@
 <body>
 
 
-  <!--\\\\\\\\\\\ header/navigation /////////////////////-->
 
   <div class="bg-gradient-to-br from-white to-gray-300">
 
@@ -33,6 +32,7 @@
       <div class="absolute w-64 h-64 ml-24 rounded-full opacity-50 from-red-100 to-red-200 bg-gradient-to-br"></div>
     </div>
 
+    <!--\\\\\\\\\\\ header/navigation /////////////////////-->
 
     <!-- navigation -->
     <div class="relative px-6 text-gray-600 md:px-6 ">
@@ -63,7 +63,14 @@
 
     <!--\\\\\\\\\\\\\\\\\\ hero section ///////////////////-->
     <div class="relative">
+
+
+
+      <!-- purple bar to help wwith the transition -->
+
       <div class="container px-6 py-24 lg:px-0 max-w-[1200px] mx-auto text-center">
+
+        <div class="absolute inset-x-0 bottom-0 h-64 bg-purple-700"></div>
 
 
         <!-- heading -->
@@ -106,39 +113,139 @@
 
 
 
-  <!-- overview section  =========================================-->
+  <!--\\\\\\\\\\\\\\ overview section ///////////////-->
+
+  <div class="relative pb-24 bg-purple-700 lg:pt-12">
+
+    <!-- grey bar to help section transition -->
+    <div class="absolute inset-x-0 bottom-0 h-64 bg-gray-300"></div>
+
+    <div class=" relative container px-6 max-w-[1200px] mx-auto lg:px-0">
+      <h2 class="mb-10 text-4xl font-bold text-purple-100 lg:text-6xl">Writing CSS is tough stuff!</h2>
 
 
-  <div class="bg-purple-700">
-    <div class="container px-6 mx-auto lg:px-0">
-      <h2>Writing CSS is tough stuff!</h2>
-      <div>
+      <div class="space-y-8 lg:flex lg:space-x-16 lg:space-y-0">
         <!-- left column -->
-        <div></div>
+        <div class="p-12 space-y-8 text-lg leading-relaxed text-gray-800 bg-white rounded shadow-2xl lg:p-16 lg:w-2/3">
+          <p>Tailwind makes writing css easier and lets us customize our designs faster than any other framework. If you
+            want a CSS framework that has pre-buil components, the Tailwind may not be for you. If yoou want a css
+            framework that lets you design quickly and customize your site, then <strong
+              class="font-bold text-teal-500">Tailwind is gonna be a lot of
+              fun. </strong></p>
 
+          <p>After using Bulma to build <a href="https://scotch.io"
+              class="text-blue-500 transition duration-300 hover:underline">Scotch.io </a>, my CSS files
+            became littered
+            with my own <code
+              class="inline-block px-1 font-mono text-xs text-teal-700 bg-gray-200 rounded">!important</code>classes
+            to
+            override
+            the
+            framework's styles. Tailwind doesn't have the <code
+              class="inline-block px-1 font-mono text-xs text-teal-700 bg-gray-200 rounded">!important</code> problem
+            since all our elements are designed on
+            the
+            fly.</p>
+
+          <p><strong class="font-bold">Important Note:</strong> Tailwind lets us design quickly, but this doesn't mean
+            that you don't
+            need CSS
+            knowledge
+            however. To use
+            Tailwind, you need to have a good understanding of CSS properties. In this course, we will learn
+            Tailwind
+            and
+            we'll also
+            learn CSS concepts to create good looking designs. <strong class="font-bold">Tailwind is the ultimate CSS
+              shorthand</strong>,
+            but we still
+            need
+            to learn
+            the CSS, which we'll do in this course.</p>
+
+          <p class="relative text-3xl italic"> <span
+              class="absolute top-0 left-0 text-6xl text-purple-600 transform scale-150 -translate-x-6 -translate-y-2 opacity-50">
+              "</span>This isn't just a Tailwind course. This is also a "learn how to design with CSS"
+            course.</p>
+
+
+          <p>The hardest things about learning Tailwind is memorizing the classes and also knowing which classes go
+            well
+            together.
+            We'll be writing a lot of Tailwind in this course so that the repetition will help us commit Tailwind
+            classes
+            to memory.</p>
+
+        </div>
 
         <!-- right column -->
-        <div></div>
+        <div class="flex-grow space-y-4 text-lg italic cla">
+          <div class="text-purple-200 bg-purple-800 rounded-lg p-9">What classes do i use</div>
+          <div class="text-purple-200 bg-purple-800 rounded-lg p-9">How do i make things look good</div>
+          <div class="text-purple-200 bg-purple-800 rounded-lg p-9">My design looks basic</div>
+          <div class="text-purple-200 bg-purple-800 rounded-lg p-9">How do i do responsive?</div>
+          <div class="text-purple-200 bg-purple-800 rounded-lg p-9">Why does my typography looks bad</div>
+        </div>
+
+
+
       </div>
+    </div>
+  </div>
+
+  <!--\\\\\\\\\\\\\\\\\\\\\\\\ about me //////////////////////-->
+  <div class="pb-24 bg-gray-300 lg:pt-12 lg:text-center">
+    <div class="container px-6 mx-auto max-w-[1200px] lg:px-0">
+
+
+      <h2 class="mb-3 text-3xl font-bold text-center text-teal-900 lg:text-6xl">About Me</h2>
+
+
+      <p class="mb-20 leading-normal lg:text-xl">I'm <a href="https://twitter.com/bc1_guy"
+          class="text-blue-500 hover:underline"></a> Samuel, a 19-year-old
+        student,
+        introvert, and
+        crypto trader. I
+        love tech, coding, and building websites.
+        I’ve built
+        a <a href="https://solanawalletgenerator.netlify.app" class="text-blue-500 hover:underline">Solana wallet
+          generator</a>, encrypted files with OpenSSL,
+        and used APIs like CoinGecko in my <a href="https://github.com/mindfullMellow?tab=repositories"
+          class="text-blue-500 hover:underline">projects</a> .
+        I'm learning web
+        dev and trading smart. I stay off social media, focus on self-growth, and dream of
+        trading on
+        Wall Street.</p>
+
+      <!-- videos -->
+      <div class="space-y-8 text-left lg:flex lg:space-x-8 lg:space-y-0">
+        <div class="bg-white border-2 border-gray-700 rounded shadow-xl lg:w-1/2">
+          <p class="p-4 text-lg text-gray-700">A quick UI view of the <a
+              href="https://solanawalletgenerator.netlify.app" class="text-blue-500 hover:underline">Solana Wallet
+              Generator</a>, i created with API
+            integration with
+            CoinGecko</p>
+          <img src="src/imgs/image.png" alt="An image of the solana Wallet Generator" class="w-full rounded-b-sm">
+        </div>
+
+        <div class="border-2 border-gray-700 rounded shadow-xl lg:w-1/2">
+          <p class="p-4 text-lg text-gray-700 bg-white">I did build a website that tracks every crptocurrency on my
+            <a href="https://mycryptowatchlist.netlify.app" class="text-blue-500 hover:underline">portfoilio
+              watchlist</a>
+            alongside their
+            tokennomics
+          </p>
+          <img src="src/imgs/byyy.png" alt="A screenshot of my crypto watch list " class="w-full ">
+        </div>
+      </div>
+
+
     </div>
   </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- about me =========================================-->
   <!-- what you will learn  =========================================-->
   <!-- what we will build   =========================================-->
   <!-- pricing   =========================================-->
