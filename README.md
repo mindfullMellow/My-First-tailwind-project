@@ -15,11 +15,11 @@
 <img src = "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"  alt = "Tailwind Badge">
 </a>
 &nbsp;
-<a href = "https://www.vue.com">
+<a href = "https://vuejs.org">
 <img src = "https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vue.js&logoColor=4FC08D" alt = "Vue Badge">
 </a>
  &nbsp;
-<a href = "https://www.vue.com">
+<a href = "https://www.npmjs.com">
 <img src = "https://img.shields.io/badge/npm-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt = "NPM Badge"> 
 </a>
 </p>
