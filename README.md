@@ -8,7 +8,7 @@
 <h2 align = "center">Beginner Tailwind Site</h2>
 
 <p align = "center">
-<a href = "https://beginner-tail-wind.netlify.app">Beginner Tailwind Site </a> is a <strong> Landing Page </strong> built with no single line of custom css. <br> <em>  All design elements was created with <strong>Tailwind and Vue </strong>
+<a href = "https://beginner-tail-wind.netlify.app">Beginner Tailwind Site </a> is a <strong> Landing Page </strong> built with no single line of custom css. <br> <em>  All design elements was created with <strong>Tailwind and Vue </strong></em>
 <br>
 <br>
 <a href = "https://www.tailwindcss.com">
@@ -28,7 +28,7 @@
 
 This is a landing page built with <u> HTML</u> , <u> Tailwind CSS </u> and <u>Javascript</u>. No Single line of custom css was used in this project. <br>
 
-NOTE: <em> This project is Fictional and doesn't exist or belong to any entity. Every elements designs and component in this project was gotten from <a href = "https://github.com/chris-sev">Chris Sev </a>
+NOTE: <em> This project is Fictional and doesn't exist or belong to any entity</em>. Every elements designs and component in this project was gotten from <a href = "https://github.com/chris-sev">Chris Sev </a>
 
 ## 🚀Features
 
