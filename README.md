@@ -18,9 +18,9 @@
 <a href = "https://www.vue.com">
 <img src = "https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vue.js&logoColor=4FC08D" alt = "Vue Badge">
 </a>
-<!-- &nbsp;
+ &nbsp;
 <a href = "https://www.vue.com">
-<img src = "https://img.shields.io/badge/Beginner-Tailwind-Site-35495E?style=flat&logo=vue.js&logoColor=4FC08D" alt = "Vue Badge"> -->
+<img src = "https://img.shields.io/badge/npm-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt = "NPM Badge"> 
 </a>
 </p>
 
